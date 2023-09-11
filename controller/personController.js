@@ -53,7 +53,6 @@ class personController{
                 res.json("error deleting")
             }
         }
-        
     }
     
     async  updatePerson(req, res){
