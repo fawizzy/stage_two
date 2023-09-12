@@ -22,13 +22,13 @@ Before you can run this API, make sure you have the following prerequisites inst
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/fawizzy/stage_two
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd <project_directory>
+   cd stage_two
    ```
 
 3. Install project dependencies:
