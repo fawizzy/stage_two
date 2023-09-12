@@ -7,6 +7,7 @@ class personController{
     async  createPerson(req, res){
         const data = req.body? req.body : null;
         const requiredFields = ["name"]
+        console.log(data)
 
         for (const field of requiredFields) {
             if (!data[field]) {
@@ -48,7 +49,7 @@ class personController{
         if (id){
             try {
                 const deletedPerson = await personSchema.delete(id);
-                res.json(deletedPerson)
+                res.json(`person with id ${deletedPerson.id} successfully deleted`)
             } catch (error) {
                 res.json("error deleting")
             }
@@ -61,7 +62,7 @@ class personController{
         if (id && data){
             try {
                 const updatedPerson = await personSchema.update(id, data);
-                res.send("successfully updated")
+                res.send(`person with ${updatedPerson.id} successfully updated`)
             } catch (error) {
                 res.send("error updating")
             }
