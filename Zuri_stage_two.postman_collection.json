@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "4a7ed482-7d3b-4007-a798-f49ac2b112d9",
+		"name": "Zuri_stage_two",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25116200"
+	},
+	"item": [
+		{
+			"name": "https://zuri-stage-two.onrender.com/api/7",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "https://zuri-stage-two.onrender.com/api/7"
+			},
+			"response": []
+		},
+		{
+			"name": "https://zuri-stage-two.onrender.com/api/15",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"yinka\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://zuri-stage-two.onrender.com/api/15"
+			},
+			"response": []
+		},
+		{
+			"name": "https://zuri-stage-two.onrender.com/api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://zuri-stage-two.onrender.com/api"
+			},
+			"response": []
+		},
+		{
+			"name": "https://zuri-stage-two.onrender.com/api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"ayoola oduola\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://zuri-stage-two.onrender.com/api"
+			},
+			"response": []
+		}
+	]
+}
