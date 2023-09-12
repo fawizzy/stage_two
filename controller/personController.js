@@ -6,7 +6,7 @@ class personController{
     
     async  createPerson(req, res){
         const data = req.body? req.body : null;
-        const requiredFields = ["email","firstName", "lastName"]
+        const requiredFields = ["name"]
 
         for (const field of requiredFields) {
             if (!data[field]) {
