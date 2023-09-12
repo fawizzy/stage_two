@@ -18,7 +18,8 @@ class personController{
         
         try{
             const createdPerson = await personSchema.create(data);
-            res.json(`user ${data.name} successfully created`)
+
+            res.json(`user ${data.name} created`)
         }catch(error){
             res.json(`error creating user`)
         }        
