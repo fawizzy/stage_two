@@ -7,7 +7,6 @@ class personController{
     async  createPerson(req, res){
         const data = req.body? req.body : null;
         const requiredFields = ["name"]
-        console.log(data)
 
         for (const field of requiredFields) {
             if (!data[field]) {
@@ -19,10 +18,8 @@ class personController{
         
         try{
             const createdPerson = await personSchema.create(data);
-            console.log(createdPerson)
-            res.json(`user ${data.firstName} successfully created`)
+            res.json(`user ${data.name} successfully created`)
         }catch(error){
-            console.log(error)
             res.json(`error creating user`)
         }        
     }
