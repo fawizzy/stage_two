@@ -1,7 +1,6 @@
 
-
-```markdown
 # Zuri Stage Two API
+
 
 This is the documentation for the Zuri Stage Two API. It provides information on how to set up, run, and use the API for various CRUD operations.
 
@@ -9,12 +8,14 @@ This is the documentation for the Zuri Stage Two API. It provides information on
 
 ## Prerequisites
 
+
 Before you can run this API, make sure you have the following prerequisites installed:
 
 - Node.js: [Download and Install Node.js](https://nodejs.org/)
 - npm (Node Package Manager): npm is included with Node.js, so you don't need to install it separately.
 
 ## Getting Started
+
 
 ### Installation
 
