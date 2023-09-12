@@ -5,18 +5,7 @@
 
 This is the documentation for the Zuri Stage Two API. It provides information on how to set up, run, and use the API for various CRUD operations.
 
-## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Running the API](#running-the-api)
-- [API Endpoints](#api-endpoints)
-  - [GET `/api`](#get-api)
-  - [POST `/api`](#post-api)
-  - [PUT `/api/{id}`](#put-apiid)
-  - [DELETE `/api/{id}`](#delete-apiid)
-- [Usage](#usage)
 
 ## Prerequisites
 
@@ -62,6 +51,15 @@ The API will be running at `http://localhost:5000`
 ### GET `/api`
 
 This endpoint retrieves a list of resources.
+
+**Example Request:**
+
+```bash
+curl -X GET http://localhost:PORT/api
+```
+### GET `/api/{id}`
+
+This endpoint retrieves a resource by its ID.
 
 **Example Request:**
 
