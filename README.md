@@ -56,7 +56,7 @@ This endpoint retrieves a list of resources.
 **Example Request:**
 
 ```bash
-curl -X GET http://localhost:PORT/api
+curl -X GET http://localhost:5000/api
 ```
 ### GET `/api/{id}`
 
@@ -65,7 +65,7 @@ This endpoint retrieves a resource by its ID.
 **Example Request:**
 
 ```bash
-curl -X GET http://localhost:PORT/api
+curl -X GET http://localhost:5000/api
 ```
 
 ### POST `/api`
@@ -75,7 +75,7 @@ This endpoint creates a new resource.
 **Example Request:**
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"name": "New Resource Name"}' http://localhost:PORT/api
+curl -X POST -H "Content-Type: application/json" -d '{"name": "New Resource Name"}' http://localhost:5000/api
 ```
 
 ### PUT `/api/{id}`
@@ -85,7 +85,7 @@ This endpoint updates an existing resource by its ID.
 **Example Request:**
 
 ```bash
-curl -X PUT -H "Content-Type: application/json" -d '{"name": "Updated Resource Name"}' http://localhost:PORT/api/ID
+curl -X PUT -H "Content-Type: application/json" -d '{"name": "Updated Resource Name"}' http://localhost:5000/api/ID
 ```
 
 ### DELETE `/api/{id}`
@@ -95,7 +95,7 @@ This endpoint deletes a resource by its ID.
 **Example Request:**
 
 ```bash
-curl -X DELETE http://localhost:PORT/api/ID
+curl -X DELETE http://localhost:5000/api/ID
 ```
 
 ## Usage
