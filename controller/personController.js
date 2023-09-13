@@ -15,8 +15,9 @@ class personController{
             }
         }
 
-        if (typeof(data["name"])!=String){
+        if (typeof(data["name"])!=="string"){
             res.status(400).json("use only string type for name")
+            return
         }
         
         try{
