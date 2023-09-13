@@ -59,6 +59,15 @@
 				"url": "https://zuri-stage-two.onrender.com/api"
 			},
 			"response": []
+		},
+		{
+			"name": "https://zuri-stage-two.onrender.com/api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://zuri-stage-two.onrender.com/api/16"
+			},
+			"response": []
 		}
 	]
 }
