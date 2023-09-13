@@ -52,7 +52,7 @@ class personController{
         if (id){
             try {
                 const deletedPerson = await personSchema.delete(id);
-                res.status(204).json(`person with id ${deletedPerson.id} successfully deleted`)
+                res.status(200).json(`person with id ${deletedPerson.id} successfully deleted`)
             } catch (error) {
                 res.status(404).json("error deleting")
             }
